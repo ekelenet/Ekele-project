@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+    .grid,
+    .grid-2,
+    .about .box-container,
+    .blog .box-container{
+        grid-template-columns: 1fr;
+
+    }
+    .about .btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .services .box-container{
+        display: block;
+    }
+
+    .services .box-container .box{
+        margin: 1.2rem;
+    }
+    #contact .contact-form input,
+    #contact .contact-form textarea{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .grid,
+    .grid-2,
+    .about .box-container,
+    .blog .box-container{
+        grid-template-columns: 1fr;
+
+    }
+
+    .navbar ul{
+        display: none;
+    }
+    
+    .about .btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .services .box-container{
+        display: block;
+    }
+
+    .services .box-container .box{
+        margin: 1.2rem;
+    }
+    #contact .contact-form input,
+    #contact .contact-form textarea{
+        width: 100%;
+    }
+}
